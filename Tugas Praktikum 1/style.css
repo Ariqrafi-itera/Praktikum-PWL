@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0ebcc;
+}
+
+.main-container {
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 32px 24px;
+  background-color: #f0ebcc;
+}
+
+.main-container .login-form {
+  max-width: 270px;
+}
+
+.main-container .login-form h2 {
+  margin-bottom: 32px;
+  color: #185adb;
+}
+
+.main-container .login-form .error-message {
+  font-weight: 700;
+  color: red;
+  margin-bottom: 16px;
+}
+
+.main-container .login-form form {
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 24px;
+}
+
+.main-container .login-form form input,
+.main-container .login-form form button {
+  padding: 12px 14px;
+  border-radius: 8px;
+}
+
+.main-container .login-form form input {
+  width: 100%;
+  margin-bottom: 8px;
+  font-size: 14px;
+  border: 1px solid #d3d3d3;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container .login-form form input:focus {
+  outline: none;
+  border: 2px solid #185adb;
+}
+
+.main-container .login-form form button {
+  margin-top: 16px;
+  width: 100%;
+  border: none;
+  background-color: #185adb;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+.main-container .login-fb {
+  margin-top: 16px;
+}
+
+.main-container .login-fb p {
+  text-align: center;
+}
+
+.main-container .login-fb a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-container .login-fb .login-fb-btn {
+  margin-top: 8px;
+  border-radius: 32px;
+  padding: 16px 16px;
+  border: 1px solid black;
+  font-size: 14px;
+  border: 2px solid #185adb;
+}
+
+.main-container .login-fb .login-fb-btn span {
+  color: #185adb;
+}
+
+.main-container .login-success {
+  color: #185adb;
+}
+/*# sourceMappingURL=style.css.map */
